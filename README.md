@@ -1,10 +1,18 @@
-# Download Ollama
+### This project demonstrates how to use AI locally in the form of a chatbot in your system. You do not need an internet connection to run this AI Chatbot after installation. This chatbot uses a simple context logic to remember past messages to provide context-based outputs.
+
+
+
+
+
+# Steps for Installation:
+
+## Download Ollama
 
 1. Download and install Ollama from: https://ollama.com/
 
 2. Test if Ollama is working by typing `ollama` in Command Prompt
 
-# Download and Test the model
+## Download and Test the model
 
 3. Download the LLM with the command: 
     $ `ollama pull llama3`
@@ -16,7 +24,7 @@
 5. Test the model by typing: 
     $ `ollama run llama3`
 
-# Project Creation
+## Project Creation
 
 6. Make a folder and open it in any IDE (for eg. VSCode)
 
@@ -28,12 +36,12 @@
 > [!NOTE]
 > The above command only works in Command Prompt, not in PowerShell.
 
-# Install Requirements
+## Install Requirements
 
 10. Install the requirements by running:
     $ `pip install -r requirements.txt`
 
-# Run the Chatbot
+## Run the Chatbot
 
 11. Run the AI Chatbot by typing:
     $ `python main.py`
